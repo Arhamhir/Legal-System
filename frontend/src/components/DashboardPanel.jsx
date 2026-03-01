@@ -27,6 +27,16 @@ export default function DashboardPanel({ user, refreshSignal = 0, guestAnalysis 
   const [selectedClauseId, setSelectedClauseId] = useState(null);
 
   useEffect(() => {
+    if (user) return;
+    setRole("free");
+    setDocuments([]);
+    setSelectedDocumentId(null);
+    setSelectedDocumentClauses([]);
+    setSelectedClauseId(null);
+    setLoadingClauses(false);
+  }, [user]);
+
+  useEffect(() => {
     if (!user || !supabase) return;
 
     const load = async () => {

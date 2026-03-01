@@ -64,6 +64,8 @@ export default function App() {
     }
     await supabase.auth.signOut();
     setUser(null);
+    setLatestAnalysis(null);
+    setAnalysisRefreshSignal(0);
   };
 
   return (
