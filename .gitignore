@@ -35,3 +35,5 @@ backend/.env.*
 # Local runtime files
 *.sqlite3
 *.db
+*.ENV_INTEGRATION_COMPLETE.md
+*.ENV_INTEGRATION_GUIDE.md
