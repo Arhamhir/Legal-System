@@ -2,7 +2,7 @@
 
 This project analyzes uploaded contracts (DOCX/PDF/images), extracts clauses, and returns a strict risk assessment with safer recommendations.
 
-###Live demo 
+### Live demo 
 https://legalator.vercel.app
 
 ## Why this is useful
