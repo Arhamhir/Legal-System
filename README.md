@@ -2,6 +2,9 @@
 
 This project analyzes uploaded contracts (DOCX/PDF/images), extracts clauses, and returns a strict risk assessment with safer recommendations.
 
+###Live demo 
+https://legalator.vercel.app
+
 ## Why this is useful
 - Helps identify risky legal terms before signing.
 - Highlights clause-level issues (liability, termination, power imbalance, financial exposure).
